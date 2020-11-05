@@ -49,6 +49,8 @@ The procedure of animal classification is as follows :
 1) Calculate texture features for the extracted foreground.
 2) Apply the test features to the classifier.
 3) If the maximum class score is greater than a threshold, animal is classified as that class.
+## Result
+
 ## Confusion Matrix:
 ## GLCM features
 Output\Target Tiger Leopard Bear Lion
