@@ -34,7 +34,7 @@ dissimilar.
 3) Examining the connected components for each cluster gives the segmented foreground pixels.
 Border pixels are excluded to distinguish between background and foreground. The extracted
 connected components are further used for classification.
-### Classification :
+## Classification :
 Segmentation detects the foreground (animals) in the image. These animals can be classified into
 different classes using ANN.
 
