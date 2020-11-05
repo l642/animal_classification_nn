@@ -49,6 +49,36 @@ The procedure of animal classification is as follows :
 1) Calculate texture features for the extracted foreground.
 2) Apply the test features to the classifier.
 3) If the maximum class score is greater than a threshold, animal is classified as that class.
+## Confusion Matrix:
+## GLCM features
+Output\Target Tiger Leopard Bear Lion
+
+Tiger            0 0 0 0
+
+Leopard          6 7 3 3
+
+Bear             0 0 2 0
+
+Lion            3 3 3 5
+
+Accuracy = 42.42%
+Fourier descriptor
+Output\Target Tiger Leopard Bear Lion
+
+Tiger           11 1 0 0
+
+Leopard        1 13 0 0
+
+Bear           0 0 17 1
+
+Lion           0 0 2 11
+
+Accuracy = 90.7%
+## Conclusion :
+GLCM and Fourier descriptors both perform well for segmentation. However, the accuracy of
+classification for GLCM is low, as only coarseness of texture cannot distinguish between different
+patterns found on animal coats. Fourier descriptor performs well for classification as it can distinguish
+between periodicity and shape of texture patterns.
 
 
 
