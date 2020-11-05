@@ -51,3 +51,5 @@ The procedure of animal classification is as follows :
 3) If the maximum class score is greater than a threshold, animal is classified as that class.
 
 
+
+
