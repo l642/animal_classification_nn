@@ -73,7 +73,7 @@ Bear           0 0 17 1
 
 Lion           0 0 2 11
 
-Accuracy = 90.7%
+ Accuracy = 90.7%
 ## Conclusion :
 GLCM and Fourier descriptors both perform well for segmentation. However, the accuracy of
 classification for GLCM is low, as only coarseness of texture cannot distinguish between different
